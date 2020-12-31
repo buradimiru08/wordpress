@@ -1,0 +1,41 @@
+.cuotas-modulo {
+    width: 100%;
+    height: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: .5rem;
+    font-size: .8rem;
+    color: var(--color-cliente);
+}
+
+.cuotas-modulo span {
+    font-weight: 900;
+    margin-left: .2rem;
+    margin-right: .2rem;
+}
+
+.single-product.single form.cart .quantity {
+    display: block;
+    margin: 0px .5rem 10px 0px !important;
+}
+
+.tc-cuotas-modulo {
+    height: 20px;
+    display: block;
+    width: 25%;
+    margin-bottom: 0rem;
+    background-image: url(tarjetas-modulos.png);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cuotas-modulo.primera-linea span {
+    margin: 0px;
+}
+
+.cuotas-modulo.ultima-linea {
+    margin-bottom: 1.5rem;
+}
