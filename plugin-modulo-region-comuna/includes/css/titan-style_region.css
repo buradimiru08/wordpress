@@ -1,0 +1,4 @@
+.modulo-regiones-titan {
+    display: flex;
+    flex-direction: column-reverse;
+}
