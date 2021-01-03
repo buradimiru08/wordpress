@@ -1,0 +1,37 @@
+.dias-de-envios.filas {
+    display: flex;
+    flex-direction: row;
+    background-color: #efefef;
+    width: auto;
+    border-radius: 5px;
+    padding: .5rem;
+    font-size: .8rem;
+    text-decoration: none;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+.dias-de-envios.filas button {
+    text-decoration: none;
+    color: #000;
+}
+
+.dias-de-envios.filas button {
+    background-color: unset;
+    border: unset;
+    padding: unset;
+    font-size: .8rem;
+}
+
+.dias-de-envios.filas button:nth-child(1) {
+    font-weight: 600;
+    margin-right: .5rem;
+    color: #ff006c;
+}
+
+.dias-de-envios.filas button:nth-child(2) {
+    text-decoration: none;
+    font-weight: 300;
+    margin-left: .5rem;
+    color: #000;
+}
