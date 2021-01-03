@@ -3,7 +3,7 @@
 Plugin Name: Titan Tiempo de entrega
 Plugin URI: https://vtorres.cl
 Description: Plugin que permite agregar dos metabox al single product de woocommerce, para mostrar tiempos de despacho o mensajes relacionados.
-Version: 1.0.1
+Version: 1.0
 Author: Vladimir Torres
 Author URI: https://vtorres.cl
 License: GPL2
@@ -28,13 +28,13 @@ function titan_estilos_plugin_dias()
     wp_enqueue_style('iconos_tiempo', plugins_url('/includes/css/all.css', __FILE__));
     wp_enqueue_style('iconos_tiempo');
 
-    wp_register_style('titan_style_tiempo', plugins_url('/includes/css/titan-style.css', __FILE__));
+    wp_register_style('titan_style_tiempo', plugins_url('/includes/css/titan-style_tiempo.css', __FILE__));
     wp_enqueue_style('titan_style_tiempo');
     wp_register_script( 'bootstrap_tiempo',  plugin_dir_url( __FILE__ ) . '/includes/js/bootstrap.min.js' , array( 'jquery' ), 'all', true );
 
     wp_enqueue_script('bootstrap_tiempo', array('jquery'), true);
     
-    wp_register_script('titan_js_tiempo', plugins_url('/includes/js/titan_js.js', __FILE__));
+    wp_register_script('titan_js_tiempo', plugins_url('/includes/js/titan_js_tiempo.js', __FILE__));
     wp_enqueue_script('titan_js_tiempo', array('jquery'), true);
     
     wp_register_script('popper_tiempo', plugins_url('/includes/js/popper.js', __FILE__));
